@@ -1,0 +1,5 @@
+# Execução única, somente leitura:  docker compose run --rm analise
+services:
+  analise:
+    build: .
+    env_file: .env
